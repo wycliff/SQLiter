@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">SQLiter</string>
+    <string name="selectButtonString">LOAD  DB DATA</string>
+</resources>

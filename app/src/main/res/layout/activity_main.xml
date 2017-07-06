@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="wycliffe.com.sqliter.MainActivity">
+
+    <Button
+        android:id="@+id/selectAll"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="368dp"
+        android:layout_height="48dp"
+        tools:layout_editor_absoluteX="-354dp"
+        tools:layout_editor_absoluteY="-203dp"
+        tools:text="@string/selectButtonString" />
+
+    <TextView
+        android:id="@+id/myShower"
+        android:layout_width="381dp"
+        android:layout_height="276dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        tools:layout_editor_absoluteY="153dp"
+        android:layout_below="@+id/selectAll"
+        android:layout_alignRight="@+id/selectAll"
+        android:layout_alignEnd="@+id/selectAll"
+        android:layout_marginTop="18dp" />
+
+</RelativeLayout>
